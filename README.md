@@ -12,6 +12,12 @@ drive for all the computers in my home.
 * Customizable -- You determine where your data is stored and by how many nodes
 * Open Source -- Work with the community to build a better block storage solution
 * Multi-platform -- Built with Python (with Thrift generating the RPC elements) so it runs almost everywhere
+
+### Notes
+* Block size is set to 4MB, but that can be changed within the BlockService.py
+* Has two modes based on how many metadata servers are found within the config file:
+`ONE_METADATA_SERVER` and `MULTIPLE_METADATA_SERVER`, where the former has no fault
+tolerance for the metadata servers but the later does.
   
   
 ### Todos (features that need to be released):  

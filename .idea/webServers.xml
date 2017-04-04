@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="83c44b3f-b8f2-4c7e-84fc-64a372d75f03" name="cse124p2" url="http://ieng6-701.ucsd.edu">
+        <fileTransfer host="ieng6-701.ucsd.edu" port="22" rootFolder="/home/linux/ieng6/cs124w/cs124waa" accessType="SFTP" password="dfebdfd9dfcedfccdf9bdf98df99" username="cs124waa">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
